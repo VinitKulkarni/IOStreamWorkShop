@@ -1,0 +1,3 @@
+Contact{firstName='Guru', lastName='Hanchinmani', city='Hubli', zip=591304, phoneNumber='9964333333'}
+Contact{firstName='vinit', lastName='kishan', city='athani', zip=591305, phoneNumber='88333333'}
+Contact{firstName='kishan', lastName='kulkarni', city='jkd', zip=58585, phoneNumber='777779999'}
