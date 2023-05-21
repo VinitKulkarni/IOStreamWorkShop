@@ -11,10 +11,10 @@ public class TextFileReadWrite {
     static final String FILE_PATH = "C:\\Users\\vinit\\IdeaProjects\\ReviewIO\\src\\main\\java\\com\\bridgelabz\\sample.txt";
 
     //write method
-    public void writeToFileDestination(List<Contact> contactList) {
+    public static void writeToFileDestination(List<AddressBook> addressBookList) {
         StringBuffer contactStringBuffer = new StringBuffer();
-        contactList.forEach(contact -> {
-            String contactString = contact.toString().concat("\n");
+        addressBookList.forEach(addressBook -> {
+            String contactString = addressBook.toString().concat("\n");
             contactStringBuffer.append(contactString);
         });
 
@@ -30,7 +30,7 @@ public class TextFileReadWrite {
 
 
     //read method
-    public void readFromFileDestination(){
+    public static void readFromFileDestination(){
         StringBuffer storeContactStringBuffer = new StringBuffer();
         String readData;
         try {
